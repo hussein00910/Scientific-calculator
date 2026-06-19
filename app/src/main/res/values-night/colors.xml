@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_number_bg">@color/btn_number_bg_dark</color>
+    <color name="btn_number_text">@color/btn_number_text_dark</color>
+    <color name="btn_function_bg">@color/btn_function_bg_dark</color>
+    <color name="btn_function_text">@color/btn_function_text_dark</color>
+    <color name="btn_sci_bg">@color/btn_sci_bg_dark</color>
+    <color name="btn_sci_text">@color/btn_sci_text_dark</color>
+    <color name="light_surface">@color/dark_surface</color>
+    <color name="light_background">@color/dark_background</color>
+    <color name="light_on_surface">@color/dark_on_surface</color>
+</resources>

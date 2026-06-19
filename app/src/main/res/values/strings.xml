@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="tab_basic">Basic</string>
+    <string name="tab_scientific">Scientific</string>
+    <string name="history">History</string>
+    <string name="toggle_theme">Toggle Theme</string>
+    <string name="error">Error</string>
+</resources>

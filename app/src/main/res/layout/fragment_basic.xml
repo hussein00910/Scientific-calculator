@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="5"
+    android:padding="8dp"
+    android:background="?attr/colorBackground">
+
+    <!-- Row 0 -->
+    <Button android:id="@+id/btnClear"   style="@style/CalcBtn.Function" android:text="AC"  android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_columnSpan="1"/>
+    <Button android:id="@+id/btnSign"    style="@style/CalcBtn.Function" android:text="+/-" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btnPercent" style="@style/CalcBtn.Function" android:text="%"   android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btnDiv"     style="@style/CalcBtn.Operator" android:text="÷"   android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <!-- Row 1 -->
+    <Button android:id="@+id/btn7" style="@style/CalcBtn.Number" android:text="7" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btn8" style="@style/CalcBtn.Number" android:text="8" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btn9" style="@style/CalcBtn.Number" android:text="9" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btnMul" style="@style/CalcBtn.Operator" android:text="×" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <!-- Row 2 -->
+    <Button android:id="@+id/btn4" style="@style/CalcBtn.Number" android:text="4" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btn5" style="@style/CalcBtn.Number" android:text="5" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btn6" style="@style/CalcBtn.Number" android:text="6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btnSub" style="@style/CalcBtn.Operator" android:text="−" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <!-- Row 3 -->
+    <Button android:id="@+id/btn1" style="@style/CalcBtn.Number" android:text="1" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btn2" style="@style/CalcBtn.Number" android:text="2" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btn3" style="@style/CalcBtn.Number" android:text="3" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btnAdd" style="@style/CalcBtn.Operator" android:text="+" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <!-- Row 4 -->
+    <Button android:id="@+id/btn0"     style="@style/CalcBtn.Number"   android:text="0"   android:layout_columnWeight="2" android:layout_rowWeight="1" android:layout_columnSpan="2"/>
+    <Button android:id="@+id/btnDot"   style="@style/CalcBtn.Number"   android:text="."   android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button android:id="@+id/btnEqual" style="@style/CalcBtn.Equal"    android:text="="   android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+</GridLayout>
